@@ -58,36 +58,26 @@ li {
     }
 }
 
-
-
-______________________________________________________
-
-
 .text-container {
   background-color: #1f2937;
   color: #f9faf8;
   display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
+  justify-content: center;
   border: solid 2px blue;
 }
 
 .hero-text {
   color: #f9faf8;
+    width: 400px;
   button {
   background-color: #3882f6;
   }
 }
 
 .hero-img {
-  max-width: 500px;
+  max-width: 350px;
   margin-right: 20px;
 }
-
-
-
-
-_________________________________________________
 
 footer {
   background-color: #1f2937;
