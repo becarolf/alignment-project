@@ -9,7 +9,6 @@
 h1 {
   font-size: 48px;
   font-weight: bolder;
-  margin: 50px;
 }
 
 h2 {
@@ -63,21 +62,49 @@ li {
   color: #f9faf8;
   display: flex;
   justify-content: center;
+  padding: 100px;
+  /* width: 100%; */
+  margin: 0 auto;
   border: solid 2px blue;
 }
 
 .hero-text {
   color: #f9faf8;
-    width: 400px;
+
   button {
   background-color: #3882f6;
   }
 }
 
 .hero-img {
-  max-width: 350px;
+  max-width: 450px;
   margin-right: 20px;
 }
+
+
+
+.random-container {
+  display: flex;
+  img {
+      width: 250px;
+      height: 100%;
+    }
+}
+
+.polaroid,
+.container {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+
+
+
+
+
+
 
 footer {
   background-color: #1f2937;
